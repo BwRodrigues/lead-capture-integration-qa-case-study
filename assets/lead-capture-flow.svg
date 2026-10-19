@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="1120" viewBox="0 0 840 1120" role="img" aria-labelledby="title desc">
+<title id="title">Fluxo genérico de captura e validação</title>
+<desc id="desc">Landing page, formulário HTML, plataforma de captura, registro do lead e redirecionamento WhatsApp. Testes funcionais verificam destino e cadastro separadamente. Diagrama didático, não representa a arquitetura privada.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#66b7ff"/></marker></defs>
+<rect width="840" height="1120" rx="24" fill="#0b1426"/>
+<g font-family="system-ui, sans-serif"><text x="64" y="65" fill="#71e9b8" font-size="17" font-weight="700">ESTUDO DE CASO · QA DE INTEGRAÇÃO</text>
+<text x="64" y="112" fill="#ffffff" font-size="32" font-weight="700">Capturar. Direcionar. Confirmar.</text>
+<text x="64" y="146" fill="#c3d3e9" font-size="19">Fluxo lógico ilustrativo · sem dados ou sistemas reais</text>
+<rect x="64" y="184" width="712" height="98" rx="16" fill="#14233b" stroke="#547ca6"/><circle cx="108" cy="233" r="23" fill="#1c4367"/><text x="108" y="240" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">1</text><text x="153" y="224" fill="#ffffff" font-size="25" font-weight="700">Landing page</text><text x="153" y="255" fill="#c3d3e9" font-size="19">Ponto de entrada do visitante</text>
+<path d="M420 282 V309" stroke="#66b7ff" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="64" y="321" width="712" height="98" rx="16" fill="#14233b" stroke="#547ca6"/><circle cx="108" cy="370" r="23" fill="#1c4367"/><text x="108" y="377" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">2</text><text x="153" y="361" fill="#ffffff" font-size="25" font-weight="700">Formulário HTML</text><text x="153" y="392" fill="#c3d3e9" font-size="19">Método POST · endpoint identificado</text>
+<path d="M420 419 V446" stroke="#66b7ff" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="64" y="458" width="712" height="98" rx="16" fill="#14233b" stroke="#547ca6"/><circle cx="108" cy="507" r="23" fill="#1c4367"/><text x="108" y="514" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">3</text><text x="153" y="498" fill="#ffffff" font-size="25" font-weight="700">Plataforma de captura</text><text x="153" y="529" fill="#c3d3e9" font-size="19">Configuração do destino atualizada</text>
+<path d="M420 556 V583" stroke="#66b7ff" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="64" y="595" width="712" height="98" rx="16" fill="#14233b" stroke="#547ca6"/><circle cx="108" cy="644" r="23" fill="#1c4367"/><text x="108" y="651" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">4</text><text x="153" y="635" fill="#ffffff" font-size="25" font-weight="700">Registro do lead</text><text x="153" y="666" fill="#c3d3e9" font-size="19">Consulta com filtro de e-mail</text>
+<path d="M420 693 V720" stroke="#66b7ff" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="64" y="732" width="712" height="98" rx="16" fill="#14233b" stroke="#547ca6"/><circle cx="108" cy="781" r="23" fill="#1c4367"/><text x="108" y="788" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">5</text><text x="153" y="772" fill="#ffffff" font-size="25" font-weight="700">Redirecionamento WhatsApp</text><text x="153" y="803" fill="#c3d3e9" font-size="19">Destino observado no teste manual</text>
+<rect x="64" y="887" width="712" height="132" rx="16" fill="#10342e" stroke="#71e9b8"/>
+<path d="M89 923 l9 9 18 -21" fill="none" stroke="#71e9b8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="132" y="929" fill="#ffffff" font-size="24" font-weight="700">Validação funcional manual</text>
+<text x="89" y="965" fill="#dcfff1" font-size="20">Sessão anônima · destino correto · cadastro localizado</text>
+<text x="89" y="995" fill="#dcfff1" font-size="18">Registro e redirecionamento verificados separadamente.</text>
+<text x="64" y="1063" fill="#c3d3e9" font-size="17">Ilustração genérica. Não comprova ordem transacional interna.</text>
+</g></svg>

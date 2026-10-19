@@ -1,0 +1,15 @@
+# Arquivos locais e informações que não devem entrar no portfólio
+.env
+.env.*
+!.env.example
+*.log
+*.har
+*.csv
+*.xlsx
+*.pem
+*.key
+node_modules/
+.DS_Store
+Thumbs.db
+screenshots/
+private/

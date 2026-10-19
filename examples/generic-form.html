@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; form-action 'none'; base-uri 'none'">
+  <title>Formulário genérico — exemplo didático</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 24px; font: 1rem/1.6 system-ui, sans-serif; color: #e8f0ff; background: #0b1426; }
+    main { max-width: 640px; margin: 4vh auto; }
+    h1 { font-size: clamp(1.65rem, 5vw, 2.3rem); line-height: 1.2; }
+    .notice { border-left: 4px solid #5ee6b1; padding: 16px; background: #14233b; }
+    fieldset { margin: 24px 0; padding: 20px; border: 1px solid #7185a3; border-radius: 12px; }
+    label { display: block; margin-top: 16px; }
+    input, button { width: 100%; padding: 12px; border-radius: 6px; font: inherit; }
+    input { background: #edf3fc; color: #152138; border: 1px solid #7185a3; }
+    button { margin-top: 24px; background: #a9c6ef; color: #152138; border: 0; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Formulário HTML: exemplo educativo</h1>
+  <p class="notice" id="notice">Código original e fictício para estudo. Não representa o formulário real e não implementa uma integração funcional. Não insira dados pessoais.</p>
+  <p>O atributo <code>method="post"</code> ilustra o envio de formulário; <code>action</code> mostra um endereço reservado de exemplo. Campos e botão estão desabilitados, e a política desta página bloqueia submissões.</p>
+  <form action="https://example.com/form-demo" method="post" aria-describedby="notice">
+    <fieldset disabled>
+      <legend>Demonstração sem envio</legend>
+      <label for="name">Nome fictício</label>
+      <input id="name" name="name" type="text" placeholder="Pessoa de Teste" autocomplete="off">
+      <label for="email">E-mail fictício</label>
+      <input id="email" name="email" type="email" placeholder="teste@example.com" autocomplete="off">
+      <button type="submit" disabled>Envio indisponível — demonstração</button>
+    </fieldset>
+  </form>
+  <p>Nenhum rastreamento, cadastro ou redirecionamento é executado. Validar sintaxe HTML não comprova persistência de um lead.</p>
+</main>
+</body>
+</html>
